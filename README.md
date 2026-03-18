@@ -63,6 +63,8 @@
 
 \- NWS-MRC Data - Community Science Monitoring Efforts Performed by the Marine Resource Committees (MRCs) and Northwest Straits Commission (NWSC) 2016 - 2024
 
+Data used in our specific project is used underspecial permissions and is not for public use or publication. 
+
 
  **Description:**
 
