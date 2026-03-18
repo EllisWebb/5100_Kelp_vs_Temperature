@@ -76,7 +76,7 @@ Here we focus on the effect of environmental parameters on the area of N. luetke
 
 
 
-There is only one notebook titled "Cleaning.ipny" in the code folder. Each cell should be run in the order presented. After data cleaning steps the notebook will output a cleaned csv to the data folder which can be used separately for other analysis. However, all of our analysis is in this notebook and continues directly after the data cleaning steps.
+There is only one notebook titled "Cleaning.ipynb" in the code folder. Each cell should be run in the order presented. After data cleaning steps the notebook will output a cleaned csv to the data folder which can be used separately for other analysis. However, all of our analysis is in this notebook and continues directly after the data cleaning steps.
 
 
 
@@ -103,10 +103,22 @@ An overview of the analysis performed:
 
 
 ## Results
+This study analyzed nearly a decade (2015–2024) of bull kelp monitoring data across 17 sites in the Salish Sea to investigate the relationship between temperature and annual kelp bed area.
 
+Across all sites, temperature alone was not a strong predictor of kelp bed area change. Correlation analysis showed weak overall relationships, with the strongest signal emerging from temperature conditions two years prior correlated with percent acre change of all beds. While this correlation was notoriously weak, it warranted further exploration of potential lagged environmental effects.
 
+Multiple linear regression models for all sites identified particularly lagged temperature variables as nearly statistically significant in a few cases (p ≈ 0.044), but with low explanatory power (R² ≈ 0.064). This indicated that temperature explains only a small portion of variability in kelp dynamics, or that signals of temperature influence are lost at this scale of analysis.
 
-None at this time
+In contrast to global granularity, we further explored site-level analyses, revealing stronger relationships. 
+
+These included:
+	•	Positive and negative relationships between lagged temperature and kelp area, with significance and lag varying by site.
+	•	Differences between relationships at nearby sites, even within the same basin
+	•	A boost in explanatory power in select cases under these hyper-localized models
+
+These findings highlight that kelp response to temperature is highly spatially dependent, and that local environmental conditions and site-specific dynamics may outweigh larger, more abstract trends.
+
+Overall, results suggest that while temperature plays a role in kelp dynamics, it may be interacting with additional environmental factors, for example nutrients, light, and salinity, to create site-specific trends, with further evidence for temperature’s influence through multi-year lag effects rather than immediate responses.
 
 
 
