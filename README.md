@@ -16,7 +16,7 @@
 
 
 
-**Objective:** There are many variables that can impact the growth and health of kelp. We are analyzing the impact of temperature and salinity on kelp growth.
+**Objective:** There are many variables that can impact the growth and health of kelp. We are analyzing the impact of temperature on kelp growth.
 
 **Domain:**  Ecology
 
@@ -63,17 +63,12 @@
 
 \- NWS-MRC Data - Community Science Monitoring Efforts Performed by the Marine Resource Committees (MRCs) and Northwest Straits Commission (NWSC) 2016 - 2024
 
-\- Dryad Data - Mascarenas, Dakota; Leeson, Aurora; Horner-Devine, Alexander; MacCready, Parker (2025). Data from: Century-scale changes in temperature, salinity, and dissolved oxygen in Puget Sound \[Dataset]. Dryad. https://doi.org/10.5061/dryad.612jm64g7
-
-
-
-
 
  **Description:**
 
 ---
 
-The question our team would like to answer is how do environmental parameters affect the area of N. luetkeana expression on the sea surface in the Salish Sea? Is there variation in their effects as a function of time? The North West Straights Commission collects data about kelp expression via volunteer kayak surveys throughout the summer as part of a program to monitor the health of the Salish Sea. The literature and general consensus in the field, is that water temperatures from previous years impact current kelp expression. We want to test what year lag is the most correlated to the expression of kelp in the current year. 
+Here we focus on the effect of environmental parameters on the area of N. luetkeana expression on the sea surface in the Salish Sea. Further asking, is there variation in their effects as a function of time? The North West Straights Commission collects data about kelp expression via volunteer kayak surveys throughout the summer as part of a program to monitor the health of the Salish Sea. The literature and general consensus in the field, is that water temperatures from previous years may impact current kelp expression. We want to test what year lag is the most correlated to the expression of kelp in the current year. 
 
 
 
@@ -81,7 +76,7 @@ The question our team would like to answer is how do environmental parameters af
 
 
 
-There is only one notebook titled " " in the code folder. Each cell should be run in the order presented. After data cleaning steps the notebook will output a cleaned csv to the data folder which can be used separately for other analysis. However, all of our analysis is in this notebook and continues directly after the data cleaning steps.
+There is only one notebook titled "Cleaning.ipny" in the code folder. Each cell should be run in the order presented. After data cleaning steps the notebook will output a cleaned csv to the data folder which can be used separately for other analysis. However, all of our analysis is in this notebook and continues directly after the data cleaning steps.
 
 
 
